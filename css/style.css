@@ -215,3 +215,115 @@ hr {
     opacity: 0.8;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 120px 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #230E3D;
+
+}
+
+.card-header {
+    font-weight: 700;
+    text-align: center;
+}
+
+.Card {
+    align-items: center;
+    justify-content: center;
+    
+ display: grid;
+ grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  max-width: 1200px;
+  height: 800px;
+    margin: 0 auto;
+    gap: 20px;
+    
+}
+
+.Card-container {
+background: #351165;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  align-items: center;
+    justify-content: center;
+}
+
+.Card-container:hover {
+    background: var(--primary-gradient);
+    color: #000000;
+        transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(165, 37, 37, 0.2);
+}
+
+.Premium {
+    grid-column: span 2;
+    grid-row: span 4;
+width: 380px;
+height: 480px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+    }
+
+    .Mobile {
+    grid-column: span 4; 
+    grid-row: span 2;
+    
+    width: 760px;
+height: 240px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+
+    }
+
+    .Global {
+       grid-column: span 4; 
+    grid-row: span 2;
+        width: 760px;
+height: 240px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+
+    }
+
+    .Exclusive {
+         grid-column: span 4;   
+    grid-row: span 2;
+        width: 760px;
+height: 240px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+    }
+
+    .Rich {
+            grid-column: span 2;
+    grid-row: span 2;
+
+       width: 380px;
+height: 240px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16;
+
+    }
+
+
+
