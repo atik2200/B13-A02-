@@ -75,3 +75,79 @@ header nav ul li a:hover {
      transform: translateY(-20px);
     box-shadow: 0 10px 20px rgba(165, 37, 37, 0.2);
 }
+
+.banner {
+  width: 1800px;
+height: 760px;
+    margin: 0 auto;
+}
+
+.banner-content {
+
+    background-image: url(../assets/hero-bg.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 170px 700px;
+    
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 550px;
+
+}
+
+.logo-circle {
+    background-image: url(../assets/hero-circle.png);
+ align-items: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-bg {
+    padding: 2.8rem 0;
+    margin: 0 auto;
+}
+
+.banner-bg-logo {
+font-size: 60px;
+font-weight: 800;
+line-height: 73px;
+text-align: center;
+text-transform: capitalize;
+}
+
+.text {
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+opacity: 0.7;
+max-width: 7000px;
+}
+
+.btn-spotify {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.btn-email {
+    background: none;
+    background-color: #1A0B2E;
+      border-radius: 80rem;
+    padding: 12px 20px;
+    font-size: 1rem;
+    gap: 4px;
+    border: 0.5px solid #00FF88;
+    color: #00FF88;
+    gap: 8px;  
+}
+.btn-email:hover {
+    background: var(--primary-gradient);
+    color: #000000;
+     transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgba(165, 37, 37, 0.2);
+}
+
